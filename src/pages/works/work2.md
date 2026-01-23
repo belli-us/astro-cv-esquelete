@@ -3,6 +3,7 @@ title: Customer Solutions Specialist
 date: 2023-2024
 location: Daly City, California
 org: Verizon 
+url: http://verizon.com/
 ---
 
 - Provided hands-on support for iOS/Android devices (setup, migrations, account syncing, OS/app conflicts, connectivity) and peripherals.

@@ -3,6 +3,7 @@ title: Technical Customer Support
 date: 2022 - Present
 location: Remote
 org: Blueprint Test Preparation
+url: http://blueprintprep.com/
 ---
 
 - Own frontline incident/request queue via Intercom; troubleshoot account access, billing, and product-usage issues and guide users to resolution with clear next steps.
