@@ -1,10 +1,10 @@
 ---
 title: about
-name: "Cezar Kelso"
-designation: "Senior Detective"
-location: Los Angeles, CA 90001
-pronouns: "he/him/el"
-website: "http://tafutza.hn/kos"
+name: "Lazare Herzi"
+designation: "Technical IT Support"
+location: Daly City, CA 94015
+pronouns: "he/him"
+website: "https://www.linkedin.com/in/lazareherzi/"
 ---
 
-Highly skilled and experienced law enforcement professional with over two decades of service in various specialized units. Adept at conducting complex investigations, coordinating tactical operations, and providing leadership in high-pressure situations. Known for exceptional problem-solving abilities, strategic thinking, and dedication to upholding the law. Seeking opportunities to leverage expertise in a challenging environment where I can continue to make a meaningful impact.
+Technical Support Engineer with 3+ years owning high-volume cases end-to-end (60–200+ chats/day) and sustaining strong outcomes (94–96% CSAT, <1 minute first response). Product-minded and metrics-driven: establishes/monitors SLAs, diagnoses issues with structured repro + logs, and delivers crisp escalations, SOPs, and playbooks. Comfortable supporting billing-related workflows (subscriptions, account access) and learning usage-based billing

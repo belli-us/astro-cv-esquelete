@@ -1,14 +1,14 @@
 ---
-title: Senior Detective
-date: 1990 - Present
-url: http://ropibbe.nf/savadru
-location: Los Angeles, California
-org: Los Angeles Police Department (LAPD)
-tags: ["Law Enforcement", "Police Work", "Tactical Operations", "Case Management"]
+title: Technical Customer Support
+date: 2022 - Present
+location: Remote
+org: Blueprint Test Preparation
 ---
 
-- Lead investigations into organized crime, drug trafficking, and high-profile criminal activities.
-- Conducted extensive surveillance operations utilizing advanced equipment and techniques to gather critical intelligence.
-- Collaborated with federal agencies such as the FBI and DEA on joint task forces to dismantle criminal syndicates.
-- Played a pivotal role in numerous undercover operations, successfully infiltrating criminal organizations and gathering actionable evidence for prosecution.
-- Trained and mentored junior officers in surveillance tactics, undercover operations, and tactical maneuvers.
+- Own frontline incident/request queue via Intercom; troubleshoot account access, billing, and product-usage issues and guide users to resolution with clear next steps.
+- Sustain <1 minute first-response times across 60–200+ chats/day while maintaining 96% CSAT through fast triage
+and clear communication.
+- Write high-signal escalations (impact, reproduction steps, logs/screenshots) and partner with engineering to
+restore service quickly and prevent recurrences.
+- Maintain Confluence knowledge base and runbooks; improve first-contact resolution and speed onboarding for
+new team members.

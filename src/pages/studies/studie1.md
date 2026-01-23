@@ -1,15 +1,6 @@
 ---
-title: Bachelor of Science in Criminal Justice
-location: University of California, Los Angeles (UCLA)
-url: http://foeberoz.gm/kuj
+title: Bachelor of Science in Business Administration
+location: University of California, Berkeley
 institute: University of California
-date: 1970-1975
-tags:
-  [
-    "Criminal Justice",
-    "Law Enforcement",
-    "Legal Studies",
-    "Public Safety",
-    "Court System",
-  ]
+date: 2016-2020
 ---

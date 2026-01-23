@@ -1,9 +1,9 @@
 ---
-title: Certified Tactical Emergency Medical Technician (TEMT)
-org: 123 Main Street, Los Angeles
-tags: [Tactical Medicine, First Aid Training, Critical Care, Triage Protocol]
-url: http://akazedu.edu/seaghi
-date: 1992
+title: Microsoft Fundamentals (MS-900)
+org: Microsoft Corp
+tags: [Office 365, Azure, Intune, Active Directory, Entra]
+url: https://learn.microsoft.com/api/credentials/share/en-us/LazareHerzi/C3E9311DE0723D8F?sharingId=1F94B3F05146A930
+date: 2026
 ---
 
-The Tactical Emergency Medical Technician (TEMT) certification trains healthcare professionals to provide advanced medical care in tactical and high-risk environments, such as law enforcement operations, military settings, or emergency response scenarios. TEMTs are trained to rapidly assess and treat traumatic injuries, stabilize patients in adverse conditions, and closely collaborate with tactical and rescue teams to ensure the safety and well-being of victims.
+Demonstrate understanding of Microsoft 365, to deliver industry-leading productivity apps along with intelligent cloud services, and world-class security.
