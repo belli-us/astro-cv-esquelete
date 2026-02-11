@@ -2,7 +2,7 @@
 title: AWS Certified Cloud Practitioner (CLF-C02)
 org: Amazon
 tags: [Cloud Concepts, Security, Technology, Billing, Pricing]
-url: https://learn.microsoft.com/api/credentials/share/en-us/LazareHerzi/C3E9311DE0723D8F?sharingId=1F94B3F05146A930
+url: https://www.credly.com/badges/22ca778b-3d85-4710-b746-d46e85ea0948/public_url
 date: 2026
 ---
 
