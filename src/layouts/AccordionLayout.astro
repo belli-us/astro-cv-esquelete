@@ -1,20 +1,18 @@
 ---
 import { Icon } from "astro-icon/components";
-import BaseLayout from "./BaseLayout.astro";
 const { title, icon } = Astro.props;
+const sectionId = title.toLowerCase().replace(/\s+/g, "-");
 ---
 
-<BaseLayout>
-  <div class="collapse collapse-arrow ease-in-out duration-700">
-    <input aria-label={title} type="checkbox"/>
-    <div class="collapse-title font-extrabold tracking-tight md:text-2xl">
-      <div class="flex">
-        <Icon name={icon} class="w-8 h-8 mr-4" />
-        {title}
-      </div>
-    </div>
-    <div class="collapse-content">
-      <slot/>
+<section id={sectionId} class="collapse collapse-arrow ease-in-out duration-700 scroll-mt-16">
+  <input aria-label={`Toggle ${title} section`} type="checkbox" />
+  <div class="collapse-title font-extrabold tracking-tight md:text-2xl">
+    <div class="flex items-center">
+      <Icon name={icon} class="w-8 h-8 mr-4" aria-hidden="true" />
+      <h2 class="text-xl md:text-2xl">{title}</h2>
     </div>
   </div>
-</BaseLayout>
+  <div class="collapse-content">
+    <slot />
+  </div>
+</section>

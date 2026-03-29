@@ -1,0 +1,70 @@
+---
+const sections = [
+  { id: "about", label: "About", icon: "carbon:identification" },
+  { id: "work", label: "Work", icon: "carbon:construction" },
+  { id: "studies", label: "Studies", icon: "carbon:education" },
+  { id: "projects", label: "Projects", icon: "carbon:tools" },
+  { id: "certifications", label: "Certs", icon: "carbon:certificate" },
+  { id: "files", label: "Files", icon: "carbon:volume-file-storage" },
+  { id: "contact", label: "Contact", icon: "carbon:location-person" },
+];
+---
+
+<nav
+  class="sticky top-0 z-20 bg-base-100/90 backdrop-blur-sm border-b border-base-300 py-2 px-4 mx-auto max-w-3xl w-[95vw]"
+  aria-label="Section navigation"
+>
+  <ul class="flex flex-wrap justify-center gap-1 md:gap-2" role="list">
+    {
+      sections.map((section) => (
+        <li>
+          <a
+            href={`#${section.id}`}
+            class="btn btn-ghost btn-xs md:btn-sm text-xs md:text-sm font-medium hover:text-primary transition-colors"
+            data-nav-link={section.id}
+          >
+            {section.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<script>
+  // Smooth scroll and highlight active section
+  document.querySelectorAll("[data-nav-link]").forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const targetId = (e.currentTarget as HTMLAnchorElement).getAttribute("data-nav-link");
+      const target = document.getElementById(targetId!);
+      if (target) {
+        // Open the accordion if it's closed
+        const checkbox = target.querySelector('input[type="checkbox"]') as HTMLInputElement;
+        if (checkbox && !checkbox.checked) {
+          checkbox.checked = true;
+        }
+        // Smooth scroll to section
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  });
+
+  // Highlight active nav link on scroll
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        const navLink = document.querySelector(`[data-nav-link="${entry.target.id}"]`);
+        if (entry.isIntersecting) {
+          document.querySelectorAll("[data-nav-link]").forEach((l) => l.classList.remove("btn-active"));
+          navLink?.classList.add("btn-active");
+        }
+      });
+    },
+    { rootMargin: "-20% 0px -70% 0px" }
+  );
+
+  document.querySelectorAll("section[id]").forEach((section) => {
+    observer.observe(section);
+  });
+</script>
