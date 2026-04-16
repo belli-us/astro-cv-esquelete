@@ -1,6 +1,6 @@
 ---
 title: OpenClaw Integration
-url: https://github.com/openclaw/openclaw
+url: https://github.com/belli-us/openclaw-workspace
 tags: ["OpenClaw", "Claude", "Docker"]
 date: 2026
 ---
